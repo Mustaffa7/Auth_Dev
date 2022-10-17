@@ -1,0 +1,4 @@
+{
+    "mongoDB_URI": "mongodb+srv://admin:fX*740oPwCDr@cluster0.0dxjlki.mongodb.net/test",
+    "jwtSecret": "secrettoken"
+}

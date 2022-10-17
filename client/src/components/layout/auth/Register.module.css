@@ -1,0 +1,196 @@
+.bgDiv {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, #05e695, #77028a 84.79%, #5775e8);
+    width: 715.73px;
+    height: 900px;
+  }
+  .wELCOMEB,
+  .yourFavouriteSite {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+  }
+  .yourFavouriteSite {
+    top: 60px;
+    font-size: var(--font-size-lg);
+    font-weight: 500;
+  }
+  .groupDiv {
+    position: relative;
+    width: 204px;
+    height: 87px;
+    flex-shrink: 0;
+  }
+  .frameDiv {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .contentDiv,
+  .leftContentDiv {
+    position: absolute;
+    top: 371px;
+    left: 130.66px;
+    width: 204px;
+    height: 87px;
+  }
+  .leftContentDiv {
+    top: 0;
+    left: -34.73px;
+    width: 715.73px;
+    height: 900px;
+  }
+  .alreadyHaveAnAccountClick {
+    cursor: pointer;
+    text-decoration: none;
+    position: absolute;
+    top: 816px;
+    left: 922px;
+    font-size: 15px;
+    color: var(--color-black);
+    display: flex;
+    align-items: center;
+    width: 277px;
+    height: 27px;
+  }
+  .confirmPasswordInput,
+  .contactInput,
+  .dOBInput,
+  .emailInput,
+  .nameInput,
+  .passwordInput {
+    border: 1px solid var(--color-gray-100);
+    background-color: var(--white);
+    position: absolute;
+    top: 470px;
+    left: 62px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+    width: 449px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    padding: var(--padding-sm) var(--padding-md);
+    align-items: flex-start;
+    justify-content: center;
+    border-radius: 30px;
+    font-family: var(--font-poppins);
+  }
+  .confirmPasswordInput,
+  .contactInput,
+  .dOBInput,
+  .emailInput,
+  .nameInput {
+    top: 128px;
+  }
+  .confirmPasswordInput,
+  .contactInput,
+  .dOBInput,
+  .emailInput {
+    top: 215px;
+    height: 58px;
+  }
+  .confirmPasswordInput,
+  .contactInput,
+  .emailInput {
+    top: 300px;
+  }
+  .confirmPasswordInput,
+  .emailInput {
+    top: 385px;
+  }
+  .confirmPasswordInput {
+    top: 557px;
+    height: 60px;
+  }
+  .registerDiv1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: var(--font-size-base);
+    font-family: var(--font-poppins);
+    color: var(--white);
+    text-align: left;
+    display: inline-block;
+  }
+  .placeholderDiv {
+    position: relative;
+    width: 57px;
+    height: 21px;
+    flex-shrink: 0;
+  }
+  .button {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-sm) var(--padding-md);
+    background-color: #0575E6;
+    position: absolute;
+    top: 644px;
+    left: 133px;
+    border-radius: 30px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    width: 307px;
+    height: 57px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+  }
+  .helloH1,
+  .signUpToGetStarted {
+    margin: 0;
+    position: absolute;
+    left: 0;
+    font-family: inherit;
+    display: inline-block;
+  }
+  .helloH1 {
+    top: 0;
+    font-size: inherit;
+    font-weight: 700;
+    width: 160.57px;
+    height: 62.06px;
+  }
+  .signUpToGetStarted {
+    top: 66.84px;
+    font-size: var(--font-size-lg);
+    font-weight: 400;
+    width: 407.61px;
+    height: 42.97px;
+  }
+  .rightContentDiv,
+  .titleDiv {
+    position: absolute;
+    top: 0;
+    left: 127.2px;
+    width: 407.61px;
+    height: 109.8px;
+  }
+  .rightContentDiv {
+    top: 66px;
+    left: 766px;
+    width: 588px;
+    height: 834px;
+    font-size: var(--font-size-xl);
+    color: var(--color-gray-400);
+  }
+  .registerDiv {
+    position: relative;
+    background-color: var(--white);
+    width: 100%;
+    height: 900px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 40px;
+    color: var(--white);
+    font-family: var(--font-poppins);
+  }
+  

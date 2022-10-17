@@ -1,0 +1,192 @@
+@keyframes shadow-inset-center {
+    0% {
+      box-shadow: inset 0 0 0 0 transparent;
+    }
+    to {
+      box-shadow: inset 0 0 14px 0 rgb(0 0 0/50%);
+    }
+  }
+  .dontHaveAccountYetClick {
+    cursor: pointer;
+    text-decoration: none;
+    top: 440px;
+    left: 58px;
+    color: inherit;
+    width: 261px;
+    height: 25px;
+    opacity: 0.7;
+  }
+  .dontHaveAccountYetClick,
+  .forgotPassword,
+  .loginDiv1 {
+    position: absolute;
+    display: inline-block;
+  }
+  .forgotPassword {
+    text-decoration: none;
+    top: 407px;
+    left: 126px;
+    color: inherit;
+    width: 125px;
+    height: 25px;
+    opacity: 0.7;
+  }
+  .loginDiv1 {
+    top: 0;
+    left: 0;
+    font-size: 20px;
+    font-family: var(--font-poppins);
+    color: #ffffff;
+    text-align: left;
+  }
+  .placeholderDiv {
+    position: relative;
+    width: 37px;
+    height: 21px;
+    flex-shrink: 0;
+  }
+  .button,
+  .textLabel {
+    cursor: pointer;
+    position: absolute;
+  }
+  .button {
+    border: 0;
+    padding: var(--padding-sm) var(--padding-md);
+    background-color: #0575e6;
+    top: 315.99px;
+    left: 0;
+    border-radius: 30px;
+    width: 371px;
+    height: 69.01px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+  }
+  .button:active {
+    animation: 1s ease 0s infinite normal none shadow-inset-center;
+    opacity: 1;
+  }
+  .textLabel {
+    width: 90.6%;
+    top: calc(50% - 9.5px);
+    right: 0;
+    left: 22.4%;
+    display: inline-block;
+  }
+  .checkboxDefaultInput {
+    cursor: pointer;
+    position: absolute;
+    height: 100%;
+    width: 16%;
+    top: 0;
+    right: 84%;
+    bottom: 0;
+    left: 0;
+  }
+  .checkboxDefaultDiv {
+    position: absolute;
+    width: 99.21%;
+    top: calc(50% - 9.5px);
+    right: 0.79%;
+    left: 0;
+    height: 19px;
+  }
+  .checkboxWithTextDiv {
+    position: absolute;
+    height: 4.09%;
+    width: 32.47%;
+    top: 60.43%;
+    right: 64.69%;
+    bottom: 35.48%;
+    left: 2.84%;
+    color: #8898aa;
+    font-family: var(--font-open-sans);
+  }
+  .emailInput,
+  .passwordInput {
+    border: 1px solid var(--color-gray-100);
+    background-color: var(--white);
+    position: absolute;
+    left: 0;
+    border-radius: 25px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+    width: 371px;
+    height: 72.64px;
+    display: flex;
+    flex-direction: column;
+    padding: var(--padding-sm) var(--padding-md);
+    align-items: flex-start;
+    justify-content: center;
+    mix-blend-mode: normal;
+    font-size: var(--font-size-sm);
+  }
+  .passwordInput {
+    top: 193px;
+  }
+  .emailInput {
+    top: 104px;
+  }
+  .welcomeBackDiv {
+    position: absolute;
+    top: 50.85px;
+    left: 0;
+    display: inline-block;
+    width: 318.97px;
+    height: 32.69px;
+  }
+  .helloAgainB,
+  .titleDiv {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 388px;
+  }
+  .helloAgainB {
+    font-size: 30px;
+    display: inline-block;
+    height: 47.22px;
+  }
+  .titleDiv {
+    height: 83.54px;
+    font-size: var(--font-size-base);
+  }
+  .loginDiv,
+  .rightContentDiv {
+    position: absolute;
+  }
+  .rightContentDiv {
+    top: 65px;
+    left: 33px;
+    width: 388px;
+    height: 465px;
+  }
+  .loginDiv {
+    top: 122px;
+    left: 498px;
+    border-radius: 18px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    width: 445px;
+    height: 553px;
+    mix-blend-mode: normal;
+    align-items: center;
+  }
+  .loginFrameDiv {
+    position: relative;
+    background-color: #05bee6;
+    width: 100%;
+    height: 900px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-sm);
+    color: var(--color-gray-400);
+    font-family: var(--font-inter);
+  }
+  
+  form{
+    width: 100%;
+  }
